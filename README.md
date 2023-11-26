@@ -12,10 +12,17 @@ This repository is a collection of my solutions to algorithmic problems from var
 
 ## 🏆 Platforms
 
-- [LeetCode](#) 🌐
-- [CodeWars](#) 💪
-- [HackerRank](#) 🧠
-- [EOlymp](#) 🌍
+### 1. [LeetCode](leetcode/)
+- Solutions to LeetCode problems using TypeScript/JavaScript.
+
+### 2. [CodeWars](codewars/)
+- CodeWars kata solutions with TypeScript/JavaScript.
+
+### 3. [HackerRank](hackerrank/)
+- Algorithmic problem solutions from HackerRank in TypeScript/JavaScript.
+
+### 4. [E-Olymp](eolymp/)
+- Challenges from E-Olymp using TypeScript/JavaScript.
 
 ## 🚀 Let's Code Together!
 
