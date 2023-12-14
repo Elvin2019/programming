@@ -1,18 +1,15 @@
 function strStr(haystack: string, needle: string): number {
-    const parts = haystack.split(needle)
-    if(parts.length === 1){
+    if( haystack.split(needle).length === 1){
         return -1
     }
-    for(let i=0; i< parts.length; i++){
-        if(parts[i] === '' ){
+    for(let i=0; i< haystack.split(needle).length; i++){
+        if(haystack.split(needle)[i] === '' ){
             return i
         }
-        if(parts[i]){
-            return parts[i].length
+        if(haystack.split(needle)[i]){
+            return haystack.split(needle)[i].length
         }
         return -1
      }
      return -1;
 };
-
-console.log(strStr("leetcode", "leeto"));
