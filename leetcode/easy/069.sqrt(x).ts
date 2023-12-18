@@ -14,4 +14,7 @@ function mySqrt(x: number): number {
 
         i++;
     }
+
+    // Add a default return statement here
+    return 0;
 }
