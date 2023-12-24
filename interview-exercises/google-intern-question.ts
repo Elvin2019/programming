@@ -83,7 +83,6 @@ store.insert(1);
 store.insert(4)
 store.remove(3);
 store.remove(3);
-store.remove(3);
 
 
 // const random = store.getRandom();
