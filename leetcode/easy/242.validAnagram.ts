@@ -1,7 +1,12 @@
 function isAnagram(s: string, t: string): boolean {
-   for(const c of s){
-       if(t.indexOf(c) < 0) return false
-       t = t.replace(c,'')
-   }
-   return t.length === 0
-};
+  let res = new Map();
+
+  for (const c of s) {
+    res.set(c, (res.get(c) || 0) + 1);
+  }
+  for (const c of t) {
+    res.set(c, (res.get(c) || 0) - 1);
+  }
+
+  return [...res.values()].every((x) => x === 0);
+}
