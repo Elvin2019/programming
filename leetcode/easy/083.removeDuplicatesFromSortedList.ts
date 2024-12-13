@@ -1,11 +1,11 @@
-class ListNode {
-  val: number;
-  next: ListNode | null;
-  constructor(val?: number, next?: ListNode | null) {
-    this.val = val === undefined ? 0 : val;
-    this.next = next === undefined ? null : next;
-  }
-}
+// class ListNode {
+//   val: number;
+//   next: ListNode | null;
+//   constructor(val?: number, next?: ListNode | null) {
+//     this.val = val === undefined ? 0 : val;
+//     this.next = next === undefined ? null : next;
+//   }
+// }
 
 function deleteDuplicates(head: ListNode | null): ListNode | null {
   if (!head) return null;
@@ -26,3 +26,4 @@ function deleteDuplicates(head: ListNode | null): ListNode | null {
 const listNode = new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(3)))));
 const result = deleteDuplicates(listNode);
 console.log(result);
+export {}

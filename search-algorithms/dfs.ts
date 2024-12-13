@@ -99,3 +99,4 @@ function countSubordinates(n: number, bosses: number[]): number[] {
   const bosses = [1, 1, 2, 3];
   const result = countSubordinates(n, bosses);
   console.log(result.join(" "));
+  export {}
