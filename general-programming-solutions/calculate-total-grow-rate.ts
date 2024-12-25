@@ -1,10 +1,10 @@
 function calculateTotalEarnings(initialMonthlyEarnings: number, increaseRate: number, years: number): number {
-    let annualEarnings: number = initialMonthlyEarnings * 12; // Convert monthly earnings to annual
+    let annualEarnings: number = initialMonthlyEarnings * 12;
     let totalEarnings: number = 0;
   
     for (let year: number = 1; year <= years; year++) {
-      totalEarnings += annualEarnings; // Add this year's earnings to the total
-      annualEarnings *= (1 + increaseRate); // Increase next year's earnings
+      totalEarnings += annualEarnings; 
+      annualEarnings *= (1 + increaseRate);
     }
   
     return totalEarnings;
