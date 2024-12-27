@@ -4,7 +4,6 @@ const binary_search = (list: Array<number> = [], item: number) => {
   let steps = 0;
   while (low <= high) {
     steps++;
-    console.log(steps);
 
     let mid = Math.floor((low + high)/2);
     let guess = list[mid];
