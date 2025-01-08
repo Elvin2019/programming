@@ -4,6 +4,7 @@
 Example: Cloning objects in memory for performance.
  */
 
+
 interface Prototype {
     clone(): this;
   }
