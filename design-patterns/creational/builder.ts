@@ -38,5 +38,5 @@ class House {
     .setDoors(2)
     .setRoof(true)
     .build();
-  console.log(house);
+  console.log(house); // { windows: 4, doors: 2, roof: true }
   

@@ -57,3 +57,4 @@ interface Transport {
   const seaLogistics = new SeaLogistics();
   clientCode(seaLogistics); // Output: Delivering goods by ship across the sea.
   
+  export {};
